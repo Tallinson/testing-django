@@ -1,6 +1,6 @@
 # testing-django
 
-I made this repo private, just wanted to learn django from scratch lmao😂😂
-Anyway, hoping to build something tangible with Django. Say Amen😁🙌
+<p>I made this repo private, just wanted to learn django from scratch lmao😂😂
+Anyway, hoping to build something tangible with Django. Say Amen😁🙌</p>
 
-Check out his <a href="https://www.thenetninja.co.uk/">Webiste, </a> he's a really amazing guy
+<p>Check out his <a href="https://www.thenetninja.co.uk/"><b>Webiste</b>, </a> he's a really amazing guy</p>
