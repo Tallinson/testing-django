@@ -7,6 +7,6 @@
     <form action="{% url 'accounts:login_view' %}" method="post" class="site-form">
         {% csrf_token %}
         {{ form }}
-        <input type="submit" value="signup">
+        <input type="submit" value="login">
     </form>
 {% endblock %}
