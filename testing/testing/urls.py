@@ -26,6 +26,9 @@ urlpatterns = [
     path('about/', views.about),
 ]
 
+if settings.DEBUG:
+    urlpatterns += static()
+
 
 
 
