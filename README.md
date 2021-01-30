@@ -9,4 +9,4 @@ Anyway, hoping to build something tangible with Django. Say Amen😁🙌</p>
 
 # What I've learnt so far
 
-<p>Django is a nice framework, if you put effort in learning it, and i clearly don't put effort</p>
+<p>Django is a nice framework, if you put effort in learning it, and i clearly don't put effort. Focus</p>
