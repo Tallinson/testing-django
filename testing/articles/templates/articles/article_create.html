@@ -3,5 +3,12 @@
 {% block title %}create{% endblock %}
 
 {% block content %}
-    <h2>create</h2>
+    <div class="creat-article">
+        <h2>Create Articles</h2>
+        <form action="{% url 'articles:article_create' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Create">
+        </form>
+    </div>
 {% endblock %}
