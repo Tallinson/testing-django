@@ -9,10 +9,16 @@
 <body>
     <header class="wrapper">
         <nav>
+            {% if user.is_authenticated %}
             <form action="{% url 'accounts:logout_view' %}" method="post">
                 {% csrf_token %}
                 <button type="submit">Logout</button>
             </form>
+                <button><a href="{% url 'articles:article_create' %}">New Article</a></button>
+            {% else %}
+                <li><a href="{% url 'accounts:login_view' %}">Login</a></li>
+                <li><a href="{% url 'accounts:signup_view' %}">Sign-Up</a></li>
+            {% endif %}
         </nav>
     </header>
     <div class="wrapper">
